@@ -13,11 +13,11 @@ rusttype = "0.8"
 
 [dependencies.glium]
 default-features = false
-version = "0.29.1"
+version = "*"
 
 [dev-dependencies]
-cgmath = "0.18"
+cgmath = "*"
 
 [dev-dependencies.glium]
 features = ["glutin"]
-version = "0.29.1"
+version = "*"
